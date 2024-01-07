@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PowerTech</title>
+    <link href="./css/main.min.css" rel="stylesheet">
+    <link href="./swiper/swiper-bundle.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="wrapper">
+        <div class="popup-wrapper popup-wrapper--test">
+            <div class="popup-container">
+                <div class="popup-send">
+                    <svg width="49" height="39" viewBox="0 0 49 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2.5 20.569L19 35.569L46.5 2.56897" stroke="white" stroke-width="4" stroke-linecap="round"/>
+                        </svg>
+                        <p class="popup-send__title">
+                            Instruction sent by mail
+                        </p>
+                        <p class="popup-send__subtitle">
+                            If you don't receive an email within 15 minutes, check your spam.
+                        </p>
+                </div>
+                <div class="popup-inner active">
+                    <p class="popup__title">Test access to PowerClang for 30 days</p>
+                    <p class="popup__subtitle">We will send installation instructions to the specified contacts.</p>
+                    <form class="popup-test-acces__form">
+                        <p class="input-popup-title">Name</p>
+                        <input type="text">
+                        <p class="input-popup-title">Email</p>
+                        <input type="email">
+                        <p class="input-popup-title">Select version</p>
+                        <div class="select-group-popup">
+                            <div class="secelt-group-popup__dropdown">
+                                <button class="select-group-popup__dropdown-btn" type="button">
+                                    Specify Version
+                                </button>
+                                <ul class="select-dropdown-popup__list">
+                                    <li class="select-dropdown-popup__list-item" data-value="vcs">
+                                        VS Code Integration
+                                    </li>
+                                    <li class="select-dropdown-popup__list-item" data-value="cross-compilation">
+                                        Cross Compilation
+                                    </li>
+                                    <li class="select-dropdown-popup__list-item" data-value="speed-boost">
+                                        Build Speed Boost
+                                    </li>
+                                </ul>
+                                <input class="select-dropdown-popup__input-hidden" type="text" name="select-language" value="">
+                            </div>
+                           </div>
+                           <div class="main__page-label-wrapper main__page-label-wrapper--popup">
+                            <label class="main-page__label main-page__label--popup">
+                                <input class="main-page__checkbox" type="checkbox" id="checkbox-popup-test">
+                                <span class="main-page__checkbox-style"></span>
+                                <span class="main-page__label-text">I agree to <a href="#">the Terms of Service</a> </span>
+                            </label>
+                        </div>
+                    </form>
+                    <div class="popup-btns">
+                        <button class="try-btn popup-btn-cancel">Cancel</button>
+                        <button class="try-btn popup-btn-send" disabled>Send</button>
+                    </div>
+                </div>
+                <button class="popup-close">
+                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_911_3402)">
+                        <path d="M7.17592 5.99999L10.7593 2.42499C10.9162 2.26807 11.0043 2.05524 11.0043 1.83333C11.0043 1.61141 10.9162 1.39858 10.7593 1.24166C10.6023 1.08474 10.3895 0.996582 10.1676 0.996582C9.94567 0.996582 9.73285 1.08474 9.57593 1.24166L6.00093 4.82499L2.42593 1.24166C2.26901 1.08474 2.05618 0.996582 1.83426 0.996582C1.61234 0.996582 1.39951 1.08474 1.24259 1.24166C1.08567 1.39858 0.997516 1.61141 0.997516 1.83333C0.997516 2.05524 1.08567 2.26807 1.24259 2.42499L4.82593 5.99999L1.24259 9.57499C1.16449 9.65246 1.10249 9.74463 1.06018 9.84618C1.01788 9.94773 0.996094 10.0566 0.996094 10.1667C0.996094 10.2767 1.01788 10.3856 1.06018 10.4871C1.10249 10.5887 1.16449 10.6809 1.24259 10.7583C1.32006 10.8364 1.41223 10.8984 1.51378 10.9407C1.61533 10.983 1.72425 11.0048 1.83426 11.0048C1.94427 11.0048 2.05319 10.983 2.15474 10.9407C2.25629 10.8984 2.34846 10.8364 2.42593 10.7583L6.00093 7.17499L9.57593 10.7583C9.65339 10.8364 9.74556 10.8984 9.84711 10.9407C9.94866 10.983 10.0576 11.0048 10.1676 11.0048C10.2776 11.0048 10.3865 10.983 10.4881 10.9407C10.5896 10.8984 10.6818 10.8364 10.7593 10.7583C10.8374 10.6809 10.8994 10.5887 10.9417 10.4871C10.984 10.3856 11.0058 10.2767 11.0058 10.1667C11.0058 10.0566 10.984 9.94773 10.9417 9.84618C10.8994 9.74463 10.8374 9.65246 10.7593 9.57499L7.17592 5.99999Z" fill="white"/>
+                        </g>
+                        <defs>
+                        <clipPath id="clip0_911_3402">
+                        <rect width="12" height="12" fill="white"/>
+                        </clipPath>
+                        </defs>
+                        </svg>
+
+                </button>
+            </div>
+        </div>
+        <div class="popup-wrapper popup-wrapper--help">
+            <div class="popup-container">
+                <div class="popup-send popup-send--help">
+                    <svg width="49" height="39" viewBox="0 0 49 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2.5 20.569L19 35.569L46.5 2.56897" stroke="white" stroke-width="4" stroke-linecap="round"/>
+                        </svg>
+                        <p class="popup-send__title">
+                            Instruction sent by mail
+                        </p>
+                        <p class="popup-send__subtitle">
+                            If you don't receive an email within 15 minutes, check your spam.
+                        </p>
+                </div>
+                <div class="popup-inner popup-inner--help active">
+                    <p class="popup__title">Help and contact us</p>
+                    <p class="popup__subtitle">By sending us a message, you will definitely receive a response.
+                        Just make sure our emails don't end up in your spam folder.
+                        By the way, we have already answered some questions in our FAQ.</p>
+                    <form class="popup-test-acces__form">
+                        <p class="input-popup-title">Name</p>
+                        <input type="text">
+                        <p class="input-popup-title">Email</p>
+                        <input type="email">
+                        <p class="input-popup-title">Select version</p>
+                        <div class="select-group-popup-help">
+                            <div class="secelt-group-popup-help__dropdown">
+                                <button class="select-group-popup-help__dropdown-btn" type="button">
+                                    Specify Version
+                                </button>
+                                <ul class="select-dropdown-popup-help__list">
+                                    <li class="select-dropdown-popup-help__list-item" data-value="vcs">
+                                        VS Code Integration
+                                    </li>
+                                    <li class="select-dropdown-popup-help__list-item" data-value="cross-compilation">
+                                        Cross Compilation
+                                    </li>
+                                    <li class="select-dropdown-popup-help__list-item" data-value="speed-boost">
+                                        Build Speed Boost
+                                    </li>
+                                </ul>
+                                <input class="select-dropdown-popup-help__input-hidden" type="text" name="select-language" value="">
+                            </div>
+                           </div>
+                           <p class="input-popup-title">Message subject</p>
+                           <input type="email">
+                           <p class="input-popup-title">Your problem message</p>
+                           <textarea class="input-popup-area" maxlength="500" onkeypress="limitAreaCheck()" onkeyup="limitAreaCheck()"></textarea>
+                           <div class="textarea-error">
+                            <p class="textarea-error-text">Character limit reached</p>
+                            <p class="textarea-error-text">500/500</p>
+                           </div>
+                           <p class="input-popup-info">Please specify the details - so we
+                            we can give you the most accurate answer</p>
+                            <div class="input-file-wrapper">
+                                <label class="input-file-label">
+                                    <input class="input-file" type="file">
+                                    <span class="input-file-text">Download files by simple transfer or by clicking the button below</span>
+                                    <span class="input-file-btn">
+                                        <img src="./img/input-file-btn.svg" alt="">
+                                        Upload file
+                                    </span>
+                                </label>
+                            </div>
+
+                        <div class="main__page-label-wrapper main__page-label-wrapper--popup">
+                            <label class="main-page__label main-page__label--popup">
+                                <input class="main-page__checkbox" type="checkbox" id="checkbox-popup-help">
+                                <span class="main-page__checkbox-style"></span>
+                                <span class="main-page__label-text">I agree to <a href="#">the Terms of Service</a> </span>
+                            </label>
+                        </div>
+                    </form>
+                    <div class="popup-btns">
+                        <button class="try-btn popup-btn-cancel popup-btn-cancel--help">Cancel</button>
+                        <button class="try-btn popup-btn-send popup-btn-send--help" disabled>Send</button>
+                    </div>
+                </div>
+                <button class="popup-close popup-close--help">
+                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_911_3402)">
+                        <path d="M7.17592 5.99999L10.7593 2.42499C10.9162 2.26807 11.0043 2.05524 11.0043 1.83333C11.0043 1.61141 10.9162 1.39858 10.7593 1.24166C10.6023 1.08474 10.3895 0.996582 10.1676 0.996582C9.94567 0.996582 9.73285 1.08474 9.57593 1.24166L6.00093 4.82499L2.42593 1.24166C2.26901 1.08474 2.05618 0.996582 1.83426 0.996582C1.61234 0.996582 1.39951 1.08474 1.24259 1.24166C1.08567 1.39858 0.997516 1.61141 0.997516 1.83333C0.997516 2.05524 1.08567 2.26807 1.24259 2.42499L4.82593 5.99999L1.24259 9.57499C1.16449 9.65246 1.10249 9.74463 1.06018 9.84618C1.01788 9.94773 0.996094 10.0566 0.996094 10.1667C0.996094 10.2767 1.01788 10.3856 1.06018 10.4871C1.10249 10.5887 1.16449 10.6809 1.24259 10.7583C1.32006 10.8364 1.41223 10.8984 1.51378 10.9407C1.61533 10.983 1.72425 11.0048 1.83426 11.0048C1.94427 11.0048 2.05319 10.983 2.15474 10.9407C2.25629 10.8984 2.34846 10.8364 2.42593 10.7583L6.00093 7.17499L9.57593 10.7583C9.65339 10.8364 9.74556 10.8984 9.84711 10.9407C9.94866 10.983 10.0576 11.0048 10.1676 11.0048C10.2776 11.0048 10.3865 10.983 10.4881 10.9407C10.5896 10.8984 10.6818 10.8364 10.7593 10.7583C10.8374 10.6809 10.8994 10.5887 10.9417 10.4871C10.984 10.3856 11.0058 10.2767 11.0058 10.1667C11.0058 10.0566 10.984 9.94773 10.9417 9.84618C10.8994 9.74463 10.8374 9.65246 10.7593 9.57499L7.17592 5.99999Z" fill="white"/>
+                        </g>
+                        <defs>
+                        <clipPath id="clip0_911_3402">
+                        <rect width="12" height="12" fill="white"/>
+                        </clipPath>
+                        </defs>
+                        </svg>
+
+                </button>
+            </div>
+        </div>
+        <header class="header">
+            <div class="container">
+                <div class="header-inner">
+                    <div class="header__logo"><a href="#">
+                        Clang
+                        <div class="burger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </a>
+                </div>
+                    <nav class="header__nav">
+                        <ul class="header__list">
+                            <li class="header__list-item">
+                                <a href="#">Product</a>
+                            </li>
+                            <li class="header__list-item">
+                                <a href="#">Features</a>
+                            </li>
+                            <li class="header__list-item">
+                                <a href="#">Pricing</a>
+                            </li>
+                            <li class="header__list-item">
+                                <a href="#">FAQ</a>
+                            </li>
+                            <li class="header__list-item header__list-item--select">
+                               <div class="lang-group">
+                                <div class="lang-group__dropdown">
+                                    <button class="lang-group__dropdown-btn">EN</button>
+                                    <ul class="lang-dropdown__list">
+                                        <li class="lang-dropdown__list-item" data-value="en">
+                                            English
+                                        </li>
+                                        <li class="lang-dropdown__list-item" data-value="ru">
+                                            Russian
+                                        </li>
+                                    </ul>
+                                    <input class="lang-dropdown__input-hidden" type="text" name="select-language" value="">
+                                </div>
+                               </div>
+                            </li>
+                            <li class="header__list-item header__list-item--languages">
+                                <button class="lang active">
+                                    EN
+                                </button>
+                                <button class="lang">
+                                    RU
+                                </button>
+                            </li>
+                        </ul>
+                        <button class="try-btn">
+                            Try it for FREE
+                        </button>
+                    </nav>
+                </div>
+
+            </div>
+        </header>
+        <main class="main">
+            <section class="main-page section">
+                <div class="container">
+                    <div class="main-page__top">
+                        <img src="./img/made-in-russia.svg" alt="Сделано в Росии">
+                        <p>
+                            Included in the Unified Register of Russian Software. Decision in the register of Russian software (No9581 dated 03/04/2021)
+                        </p>
+                    </div>
+                    <h1 class="main-page__title">
+                       <span>PowerTech</span> Clang
+                    </h1>
+                    <p class="main-page__subtitle">
+                        Сompiler for fast assembly of C and C++ code. Suitable for all devices simultaneously: <br> Windows, macOS, Linux, Android, iOS, FreeBSD
+                    </p>
+                    <p class="main-page__description">
+                        Included in the Unified Register of Russian Software. Decision in the register of Russian software (No9581 dated 03/04/2021)
+                    </p>
+                    <form class="main-page__form" action="#">
+                        <div class="main-page__form-top">
+                            <input class="main-page__form-input" type="text" placeholder="Your name">
+                            <input class="main-page__form-input" type="email" placeholder="Your email">
+                            <div class="select-group">
+                                <div class="secelt-group__dropdown">
+                                    <button class="select-group__dropdown-btn" type="button">
+                                        Select version
+                                    </button>
+                                    <ul class="select-dropdown__list">
+                                        <li class="select-dropdown__list-item" data-value="vcs">
+                                            VS Code Integration
+                                        </li>
+                                        <li class="select-dropdown__list-item" data-value="cross-compilation">
+                                            Cross Compilation
+                                        </li>
+                                        <li class="select-dropdown__list-item" data-value="speed-boost">
+                                            Build Speed Boost
+                                        </li>
+                                    </ul>
+                                    <input class="select-dropdown__input-hidden" type="text" name="select-language" value="">
+                                </div>
+                               </div>
+                            <button class="main-page__btn try-btn">
+                                Try it for FREE 30 days
+                            </button>
+                        </div>
+                        <div class="main__page-label-wrapper">
+                            <label class="main-page__label">
+                                <input class="main-page__checkbox" type="checkbox">
+                                <span class="main-page__checkbox-style"></span>
+                                <span class="main-page__label-text">I agree to the Terms of Service</span>
+                            </label>
+                        </div>
+                    </form>
+            </div>
+            </section>
+           <section class="video section">
+                <!-- <div class="video-wrapper">
+                    <iframe class="video-frame" width="802" height="451" src="https://www.youtube.com/embed/LXb3EKWsInQ?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div> -->
+            </section>
+             <section class="easy-to-start section">
+                <div class="container">
+                    <h2 class="easy-to-start__title">
+                       <span>Easy to start</span>, convenient to operate
+                    </h2>
+                    <div class="easy-to-start-inner">
+                        <div class="easy-to-start__info">
+                            <div class="easy-to-start__content active">
+                                <h3 class="easy-to-start__info-title">
+                                    <a>Cross Compilation</a>
+                                  </h3>
+                                <ul class="easy-to-start__btns">
+                                    <li class="easy-to-start__btn">
+                                        Community
+                                    </li>
+                                    <li class="easy-to-start__btn">
+                                        Standard
+                                    </li>
+                                    <li class="easy-to-start__btn">
+                                        Premium
+                                    </li>
+                                </ul>
+                                <p class="easy-to-start__descr">
+                                    Build your applications from any platform to any platform. Supported platforms: Windows, macOS, Linux, Android, iOS, FreeBSD, etc.
+                                    <a href="#">More</a>
+                                </p>
+                            </div>
+                            <div class="easy-to-start__info-img">
+                                <picture>
+                                    <source type="image/webp" srcset="./img/easy-to-start/dec.webp">
+                                    <img src="./img/easy-to-start/dec.jpg" alt="">
+                                </picture>
+
+                                <a class="easy-to-start__link easy-to-start__link--mobile" href="">Get Beta</a>
+                            </div>
+                            <div class="easy-to-start__content">
+                                <h3 class="easy-to-start__info-title">
+                                    <a>VS Code Integration</a>
+                                 </h3>
+                                <ul class="easy-to-start__btns">
+                                    <li class="easy-to-start__btn">
+                                        Community
+                                    </li>
+                                    <li class="easy-to-start__btn">
+                                        Standard
+                                    </li>
+                                    <li class="easy-to-start__btn">
+                                        Premium
+                                    </li>
+                                </ul>
+                                <p class="easy-to-start__descr">
+                                    Build your applications from any platform to any platform. Supported platforms: Windows, macOS, Linux, Android, iOS, FreeBSD, etc.
+                                    <a href="#">More</a>
+                                </p>
+                            </div>
+                            <div class="easy-to-start__content">
+                                <h3 class="easy-to-start__info-title">
+                                    <a>Build Speed Boost</a>
+                                  </h3>
+                                  <ul class="easy-to-start__btns">
+                                    <li class="easy-to-start__btn">
+                                        Community
+                                    </li>
+                                    <li class="easy-to-start__btn">
+                                        Standard
+                                    </li>
+                                    <li class="easy-to-start__btn">
+                                        Premium
+                                    </li>
+                                </ul>
+                                <p class="easy-to-start__descr">
+                                    Build your applications from any platform to any platform. Supported platforms: Windows, macOS, Linux, Android, iOS, FreeBSD, etc.
+                                    <a href="#">More</a>
+                                </p>
+                            </div>
+
+                        </div>
+                        <div class="easy-to-start__img">
+                            <img src="./img/easy-to-start/dec.webp" alt="">
+                        </div>
+                    </div>
+                    <a class="easy-to-start__link" href="">Get Beta</a>
+                </div>
+            </section>
+           <section class="how-works section">
+                <div class="container">
+                    <h2 class="how-works__title">
+                        How This Works
+                    </h2>
+                    <ul class="how-works__list">
+                        <li class="how-works__list-item">
+                            <img src="./img/how-this-works/calendar.svg" alt="">
+                            <h5>Install and use for free for 30 days</h5>
+                            <p>Within 30 days you will have access to all the possibilities.</p>
+                        </li>
+                        <li class="how-works__list-item">
+                            <img src="./img/how-this-works/license.svg" alt="">
+                            <h5>After 30 days, choose a license</h5>
+                            <p>After 30 days, choose any license that suits you, including the free one.</p>
+                        </li>
+                        <li class="how-works__list-item">
+                            <img src="./img/how-this-works/advantage.svg" alt="">
+                            <h5>Take advantage of compiler competitive advantages</h5>
+                            <p>By integrating the solution, assembly of C and C++ code is reduced to 20 seconds.</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="prices section">
+                <div class="container">
+                    <h2 class="prices__title">
+                        Our Pricing Plan
+                    </h2>
+                    <ul class="prices__list">
+                            <li class="prices__list-item prices__list-item--trial">
+                            <h3>Trial </h3>
+                            <p class="prices__item-descr">Free license for 30 days with maximum (Premium) functionality</p>
+                            <ul class="prices__benefits">
+                                <li class="prices__benefit">
+                                    <svg class="prices__arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M20.92 12.62C20.8724 12.4972 20.801 12.3851 20.71 12.29L17.71 9.29C17.5217 9.1017 17.2663 8.99591 17 8.99591C16.7337 8.99591 16.4783 9.1017 16.29 9.29C16.1017 9.4783 15.9959 9.7337 15.9959 10C15.9959 10.2663 16.1017 10.5217 16.29 10.71L17.59 12H8C7.73478 12 7.48043 11.8946 7.29289 11.7071C7.10536 11.5196 7 11.2652 7 11V7C7 6.73478 6.89464 6.48043 6.70711 6.29289C6.51957 6.10536 6.26522 6 6 6C5.73478 6 5.48043 6.10536 5.29289 6.29289C5.10536 6.48043 5 6.73478 5 7V11C5 11.7956 5.31607 12.5587 5.87868 13.1213C6.44129 13.6839 7.20435 14 8 14H17.59L16.29 15.29C16.1963 15.383 16.1219 15.4936 16.0711 15.6154C16.0203 15.7373 15.9942 15.868 15.9942 16C15.9942 16.132 16.0203 16.2627 16.0711 16.3846C16.1219 16.5064 16.1963 16.617 16.29 16.71C16.383 16.8037 16.4936 16.8781 16.6154 16.9289C16.7373 16.9797 16.868 17.0058 17 17.0058C17.132 17.0058 17.2627 16.9797 17.3846 16.9289C17.5064 16.8781 17.617 16.8037 17.71 16.71L20.71 13.71C20.801 13.6149 20.8724 13.5028 20.92 13.38C21.02 13.1365 21.02 12.8635 20.92 12.62Z" fill="#8B3CF1"/>
+                                    </svg>
+
+                                    Cross Compilation
+
+                                </li>
+                                <li class="prices__benefit">
+                                    <svg class="prices__arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M20.92 12.62C20.8724 12.4972 20.801 12.3851 20.71 12.29L17.71 9.29C17.5217 9.1017 17.2663 8.99591 17 8.99591C16.7337 8.99591 16.4783 9.1017 16.29 9.29C16.1017 9.4783 15.9959 9.7337 15.9959 10C15.9959 10.2663 16.1017 10.5217 16.29 10.71L17.59 12H8C7.73478 12 7.48043 11.8946 7.29289 11.7071C7.10536 11.5196 7 11.2652 7 11V7C7 6.73478 6.89464 6.48043 6.70711 6.29289C6.51957 6.10536 6.26522 6 6 6C5.73478 6 5.48043 6.10536 5.29289 6.29289C5.10536 6.48043 5 6.73478 5 7V11C5 11.7956 5.31607 12.5587 5.87868 13.1213C6.44129 13.6839 7.20435 14 8 14H17.59L16.29 15.29C16.1963 15.383 16.1219 15.4936 16.0711 15.6154C16.0203 15.7373 15.9942 15.868 15.9942 16C15.9942 16.132 16.0203 16.2627 16.0711 16.3846C16.1219 16.5064 16.1963 16.617 16.29 16.71C16.383 16.8037 16.4936 16.8781 16.6154 16.9289C16.7373 16.9797 16.868 17.0058 17 17.0058C17.132 17.0058 17.2627 16.9797 17.3846 16.9289C17.5064 16.8781 17.617 16.8037 17.71 16.71L20.71 13.71C20.801 13.6149 20.8724 13.5028 20.92 13.38C21.02 13.1365 21.02 12.8635 20.92 12.62Z" fill="#8B3CF1"/>
+                                    </svg>
+                                    VS Code Integration
+                                </li>
+                                <li class="prices__benefit">
+                                    <svg class="prices__arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M20.92 12.62C20.8724 12.4972 20.801 12.3851 20.71 12.29L17.71 9.29C17.5217 9.1017 17.2663 8.99591 17 8.99591C16.7337 8.99591 16.4783 9.1017 16.29 9.29C16.1017 9.4783 15.9959 9.7337 15.9959 10C15.9959 10.2663 16.1017 10.5217 16.29 10.71L17.59 12H8C7.73478 12 7.48043 11.8946 7.29289 11.7071C7.10536 11.5196 7 11.2652 7 11V7C7 6.73478 6.89464 6.48043 6.70711 6.29289C6.51957 6.10536 6.26522 6 6 6C5.73478 6 5.48043 6.10536 5.29289 6.29289C5.10536 6.48043 5 6.73478 5 7V11C5 11.7956 5.31607 12.5587 5.87868 13.1213C6.44129 13.6839 7.20435 14 8 14H17.59L16.29 15.29C16.1963 15.383 16.1219 15.4936 16.0711 15.6154C16.0203 15.7373 15.9942 15.868 15.9942 16C15.9942 16.132 16.0203 16.2627 16.0711 16.3846C16.1219 16.5064 16.1963 16.617 16.29 16.71C16.383 16.8037 16.4936 16.8781 16.6154 16.9289C16.7373 16.9797 16.868 17.0058 17 17.0058C17.132 17.0058 17.2627 16.9797 17.3846 16.9289C17.5064 16.8781 17.617 16.8037 17.71 16.71L20.71 13.71C20.801 13.6149 20.8724 13.5028 20.92 13.38C21.02 13.1365 21.02 12.8635 20.92 12.62Z" fill="#8B3CF1"/>
+                                    </svg>
+                                    Build Speed Boost
+                                </li>
+                            </ul>
+                            <button class="prices__btn try-btn">Try it for FREE 30 days</button>
+                            </li>
+                            <li class="prices__list-item prices__list-item--community">
+                            <h3>Community </h3>
+                            <p class="prices__item-descr">Free license for 6 months</p>
+                            <ul class="prices__benefits">
+                                <li class="prices__benefit">
+                                    <svg class="prices__arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M20.92 12.62C20.8724 12.4972 20.801 12.3851 20.71 12.29L17.71 9.29C17.5217 9.1017 17.2663 8.99591 17 8.99591C16.7337 8.99591 16.4783 9.1017 16.29 9.29C16.1017 9.4783 15.9959 9.7337 15.9959 10C15.9959 10.2663 16.1017 10.5217 16.29 10.71L17.59 12H8C7.73478 12 7.48043 11.8946 7.29289 11.7071C7.10536 11.5196 7 11.2652 7 11V7C7 6.73478 6.89464 6.48043 6.70711 6.29289C6.51957 6.10536 6.26522 6 6 6C5.73478 6 5.48043 6.10536 5.29289 6.29289C5.10536 6.48043 5 6.73478 5 7V11C5 11.7956 5.31607 12.5587 5.87868 13.1213C6.44129 13.6839 7.20435 14 8 14H17.59L16.29 15.29C16.1963 15.383 16.1219 15.4936 16.0711 15.6154C16.0203 15.7373 15.9942 15.868 15.9942 16C15.9942 16.132 16.0203 16.2627 16.0711 16.3846C16.1219 16.5064 16.1963 16.617 16.29 16.71C16.383 16.8037 16.4936 16.8781 16.6154 16.9289C16.7373 16.9797 16.868 17.0058 17 17.0058C17.132 17.0058 17.2627 16.9797 17.3846 16.9289C17.5064 16.8781 17.617 16.8037 17.71 16.71L20.71 13.71C20.801 13.6149 20.8724 13.5028 20.92 13.38C21.02 13.1365 21.02 12.8635 20.92 12.62Z" fill="#8B3CF1"/>
+                                    </svg>
+
+                                    Cross Compilation
+
+                                </li>
+                                <li class="prices__benefit">
+                                    <svg class="prices__arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M20.92 12.62C20.8724 12.4972 20.801 12.3851 20.71 12.29L17.71 9.29C17.5217 9.1017 17.2663 8.99591 17 8.99591C16.7337 8.99591 16.4783 9.1017 16.29 9.29C16.1017 9.4783 15.9959 9.7337 15.9959 10C15.9959 10.2663 16.1017 10.5217 16.29 10.71L17.59 12H8C7.73478 12 7.48043 11.8946 7.29289 11.7071C7.10536 11.5196 7 11.2652 7 11V7C7 6.73478 6.89464 6.48043 6.70711 6.29289C6.51957 6.10536 6.26522 6 6 6C5.73478 6 5.48043 6.10536 5.29289 6.29289C5.10536 6.48043 5 6.73478 5 7V11C5 11.7956 5.31607 12.5587 5.87868 13.1213C6.44129 13.6839 7.20435 14 8 14H17.59L16.29 15.29C16.1963 15.383 16.1219 15.4936 16.0711 15.6154C16.0203 15.7373 15.9942 15.868 15.9942 16C15.9942 16.132 16.0203 16.2627 16.0711 16.3846C16.1219 16.5064 16.1963 16.617 16.29 16.71C16.383 16.8037 16.4936 16.8781 16.6154 16.9289C16.7373 16.9797 16.868 17.0058 17 17.0058C17.132 17.0058 17.2627 16.9797 17.3846 16.9289C17.5064 16.8781 17.617 16.8037 17.71 16.71L20.71 13.71C20.801 13.6149 20.8724 13.5028 20.92 13.38C21.02 13.1365 21.02 12.8635 20.92 12.62Z" fill="#8B3CF1"/>
+                                    </svg>
+                                    VS Code Integration
+                                </li>
+                                <li class="prices__benefit">
+                                    <svg class="prices__arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M20.92 12.62C20.8724 12.4972 20.801 12.3851 20.71 12.29L17.71 9.29C17.5217 9.1017 17.2663 8.99591 17 8.99591C16.7337 8.99591 16.4783 9.1017 16.29 9.29C16.1017 9.4783 15.9959 9.7337 15.9959 10C15.9959 10.2663 16.1017 10.5217 16.29 10.71L17.59 12H8C7.73478 12 7.48043 11.8946 7.29289 11.7071C7.10536 11.5196 7 11.2652 7 11V7C7 6.73478 6.89464 6.48043 6.70711 6.29289C6.51957 6.10536 6.26522 6 6 6C5.73478 6 5.48043 6.10536 5.29289 6.29289C5.10536 6.48043 5 6.73478 5 7V11C5 11.7956 5.31607 12.5587 5.87868 13.1213C6.44129 13.6839 7.20435 14 8 14H17.59L16.29 15.29C16.1963 15.383 16.1219 15.4936 16.0711 15.6154C16.0203 15.7373 15.9942 15.868 15.9942 16C15.9942 16.132 16.0203 16.2627 16.0711 16.3846C16.1219 16.5064 16.1963 16.617 16.29 16.71C16.383 16.8037 16.4936 16.8781 16.6154 16.9289C16.7373 16.9797 16.868 17.0058 17 17.0058C17.132 17.0058 17.2627 16.9797 17.3846 16.9289C17.5064 16.8781 17.617 16.8037 17.71 16.71L20.71 13.71C20.801 13.6149 20.8724 13.5028 20.92 13.38C21.02 13.1365 21.02 12.8635 20.92 12.62Z" fill="#8B3CF1"/>
+                                    </svg>
+                                    Build Speed Boost
+                                </li>
+                            </ul>
+                            <div class="prices__price">
+                                <p>9€/599₽</p>
+                                <p>per year</p>
+                            </div>
+                            <button class="prices__btn prices__btn--community try-btn">Download free for 6 months</button>
+                            </li>
+                            <li class="prices__list-item  prices__list-item--standart">
+                            <h3>Standart</h3>
+                            <p class="prices__item-descr">Standard license</p>
+                            <ul class="prices__benefits">
+                                <li class="prices__benefit">
+                                    <svg class="prices__arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M20.92 12.62C20.8724 12.4972 20.801 12.3851 20.71 12.29L17.71 9.29C17.5217 9.1017 17.2663 8.99591 17 8.99591C16.7337 8.99591 16.4783 9.1017 16.29 9.29C16.1017 9.4783 15.9959 9.7337 15.9959 10C15.9959 10.2663 16.1017 10.5217 16.29 10.71L17.59 12H8C7.73478 12 7.48043 11.8946 7.29289 11.7071C7.10536 11.5196 7 11.2652 7 11V7C7 6.73478 6.89464 6.48043 6.70711 6.29289C6.51957 6.10536 6.26522 6 6 6C5.73478 6 5.48043 6.10536 5.29289 6.29289C5.10536 6.48043 5 6.73478 5 7V11C5 11.7956 5.31607 12.5587 5.87868 13.1213C6.44129 13.6839 7.20435 14 8 14H17.59L16.29 15.29C16.1963 15.383 16.1219 15.4936 16.0711 15.6154C16.0203 15.7373 15.9942 15.868 15.9942 16C15.9942 16.132 16.0203 16.2627 16.0711 16.3846C16.1219 16.5064 16.1963 16.617 16.29 16.71C16.383 16.8037 16.4936 16.8781 16.6154 16.9289C16.7373 16.9797 16.868 17.0058 17 17.0058C17.132 17.0058 17.2627 16.9797 17.3846 16.9289C17.5064 16.8781 17.617 16.8037 17.71 16.71L20.71 13.71C20.801 13.6149 20.8724 13.5028 20.92 13.38C21.02 13.1365 21.02 12.8635 20.92 12.62Z" fill="#8B3CF1"/>
+                                    </svg>
+
+                                    Cross Compilation
+
+                                </li>
+                                <li class="prices__benefit">
+                                    <svg class="prices__arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M20.92 12.62C20.8724 12.4972 20.801 12.3851 20.71 12.29L17.71 9.29C17.5217 9.1017 17.2663 8.99591 17 8.99591C16.7337 8.99591 16.4783 9.1017 16.29 9.29C16.1017 9.4783 15.9959 9.7337 15.9959 10C15.9959 10.2663 16.1017 10.5217 16.29 10.71L17.59 12H8C7.73478 12 7.48043 11.8946 7.29289 11.7071C7.10536 11.5196 7 11.2652 7 11V7C7 6.73478 6.89464 6.48043 6.70711 6.29289C6.51957 6.10536 6.26522 6 6 6C5.73478 6 5.48043 6.10536 5.29289 6.29289C5.10536 6.48043 5 6.73478 5 7V11C5 11.7956 5.31607 12.5587 5.87868 13.1213C6.44129 13.6839 7.20435 14 8 14H17.59L16.29 15.29C16.1963 15.383 16.1219 15.4936 16.0711 15.6154C16.0203 15.7373 15.9942 15.868 15.9942 16C15.9942 16.132 16.0203 16.2627 16.0711 16.3846C16.1219 16.5064 16.1963 16.617 16.29 16.71C16.383 16.8037 16.4936 16.8781 16.6154 16.9289C16.7373 16.9797 16.868 17.0058 17 17.0058C17.132 17.0058 17.2627 16.9797 17.3846 16.9289C17.5064 16.8781 17.617 16.8037 17.71 16.71L20.71 13.71C20.801 13.6149 20.8724 13.5028 20.92 13.38C21.02 13.1365 21.02 12.8635 20.92 12.62Z" fill="#8B3CF1"/>
+                                    </svg>
+                                    VS Code Integration
+                                </li>
+                                <li class="prices__benefit">
+                                    <svg class="prices__arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M20.92 12.62C20.8724 12.4972 20.801 12.3851 20.71 12.29L17.71 9.29C17.5217 9.1017 17.2663 8.99591 17 8.99591C16.7337 8.99591 16.4783 9.1017 16.29 9.29C16.1017 9.4783 15.9959 9.7337 15.9959 10C15.9959 10.2663 16.1017 10.5217 16.29 10.71L17.59 12H8C7.73478 12 7.48043 11.8946 7.29289 11.7071C7.10536 11.5196 7 11.2652 7 11V7C7 6.73478 6.89464 6.48043 6.70711 6.29289C6.51957 6.10536 6.26522 6 6 6C5.73478 6 5.48043 6.10536 5.29289 6.29289C5.10536 6.48043 5 6.73478 5 7V11C5 11.7956 5.31607 12.5587 5.87868 13.1213C6.44129 13.6839 7.20435 14 8 14H17.59L16.29 15.29C16.1963 15.383 16.1219 15.4936 16.0711 15.6154C16.0203 15.7373 15.9942 15.868 15.9942 16C15.9942 16.132 16.0203 16.2627 16.0711 16.3846C16.1219 16.5064 16.1963 16.617 16.29 16.71C16.383 16.8037 16.4936 16.8781 16.6154 16.9289C16.7373 16.9797 16.868 17.0058 17 17.0058C17.132 17.0058 17.2627 16.9797 17.3846 16.9289C17.5064 16.8781 17.617 16.8037 17.71 16.71L20.71 13.71C20.801 13.6149 20.8724 13.5028 20.92 13.38C21.02 13.1365 21.02 12.8635 20.92 12.62Z" fill="#8B3CF1"/>
+                                    </svg>
+                                    Build Speed Boost
+                                </li>
+                            </ul>
+                            <div class="prices__price">
+                                <p>19€/1299₽</p>
+                                <p>per year</p>
+                            </div>
+                            <button class="prices__btn prices__btn--white try-btn">Buy</button>
+                            </li>
+                            <li class="prices__list-item prices__list-item--premium">
+                            <h3>Premium </h3>
+                            <p class="prices__item-descr">Premium license</p>
+                            <ul class="prices__benefits">
+                                <li class="prices__benefit">
+                                    <svg class="prices__arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M20.92 12.62C20.8724 12.4972 20.801 12.3851 20.71 12.29L17.71 9.29C17.5217 9.1017 17.2663 8.99591 17 8.99591C16.7337 8.99591 16.4783 9.1017 16.29 9.29C16.1017 9.4783 15.9959 9.7337 15.9959 10C15.9959 10.2663 16.1017 10.5217 16.29 10.71L17.59 12H8C7.73478 12 7.48043 11.8946 7.29289 11.7071C7.10536 11.5196 7 11.2652 7 11V7C7 6.73478 6.89464 6.48043 6.70711 6.29289C6.51957 6.10536 6.26522 6 6 6C5.73478 6 5.48043 6.10536 5.29289 6.29289C5.10536 6.48043 5 6.73478 5 7V11C5 11.7956 5.31607 12.5587 5.87868 13.1213C6.44129 13.6839 7.20435 14 8 14H17.59L16.29 15.29C16.1963 15.383 16.1219 15.4936 16.0711 15.6154C16.0203 15.7373 15.9942 15.868 15.9942 16C15.9942 16.132 16.0203 16.2627 16.0711 16.3846C16.1219 16.5064 16.1963 16.617 16.29 16.71C16.383 16.8037 16.4936 16.8781 16.6154 16.9289C16.7373 16.9797 16.868 17.0058 17 17.0058C17.132 17.0058 17.2627 16.9797 17.3846 16.9289C17.5064 16.8781 17.617 16.8037 17.71 16.71L20.71 13.71C20.801 13.6149 20.8724 13.5028 20.92 13.38C21.02 13.1365 21.02 12.8635 20.92 12.62Z" fill="#8B3CF1"/>
+                                    </svg>
+
+                                    Cross Compilation
+
+                                </li>
+                                <li class="prices__benefit">
+                                    <svg class="prices__arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M20.92 12.62C20.8724 12.4972 20.801 12.3851 20.71 12.29L17.71 9.29C17.5217 9.1017 17.2663 8.99591 17 8.99591C16.7337 8.99591 16.4783 9.1017 16.29 9.29C16.1017 9.4783 15.9959 9.7337 15.9959 10C15.9959 10.2663 16.1017 10.5217 16.29 10.71L17.59 12H8C7.73478 12 7.48043 11.8946 7.29289 11.7071C7.10536 11.5196 7 11.2652 7 11V7C7 6.73478 6.89464 6.48043 6.70711 6.29289C6.51957 6.10536 6.26522 6 6 6C5.73478 6 5.48043 6.10536 5.29289 6.29289C5.10536 6.48043 5 6.73478 5 7V11C5 11.7956 5.31607 12.5587 5.87868 13.1213C6.44129 13.6839 7.20435 14 8 14H17.59L16.29 15.29C16.1963 15.383 16.1219 15.4936 16.0711 15.6154C16.0203 15.7373 15.9942 15.868 15.9942 16C15.9942 16.132 16.0203 16.2627 16.0711 16.3846C16.1219 16.5064 16.1963 16.617 16.29 16.71C16.383 16.8037 16.4936 16.8781 16.6154 16.9289C16.7373 16.9797 16.868 17.0058 17 17.0058C17.132 17.0058 17.2627 16.9797 17.3846 16.9289C17.5064 16.8781 17.617 16.8037 17.71 16.71L20.71 13.71C20.801 13.6149 20.8724 13.5028 20.92 13.38C21.02 13.1365 21.02 12.8635 20.92 12.62Z" fill="#8B3CF1"/>
+                                    </svg>
+                                    VS Code Integration
+                                </li>
+                                <li class="prices__benefit">
+                                    <svg class="prices__arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M20.92 12.62C20.8724 12.4972 20.801 12.3851 20.71 12.29L17.71 9.29C17.5217 9.1017 17.2663 8.99591 17 8.99591C16.7337 8.99591 16.4783 9.1017 16.29 9.29C16.1017 9.4783 15.9959 9.7337 15.9959 10C15.9959 10.2663 16.1017 10.5217 16.29 10.71L17.59 12H8C7.73478 12 7.48043 11.8946 7.29289 11.7071C7.10536 11.5196 7 11.2652 7 11V7C7 6.73478 6.89464 6.48043 6.70711 6.29289C6.51957 6.10536 6.26522 6 6 6C5.73478 6 5.48043 6.10536 5.29289 6.29289C5.10536 6.48043 5 6.73478 5 7V11C5 11.7956 5.31607 12.5587 5.87868 13.1213C6.44129 13.6839 7.20435 14 8 14H17.59L16.29 15.29C16.1963 15.383 16.1219 15.4936 16.0711 15.6154C16.0203 15.7373 15.9942 15.868 15.9942 16C15.9942 16.132 16.0203 16.2627 16.0711 16.3846C16.1219 16.5064 16.1963 16.617 16.29 16.71C16.383 16.8037 16.4936 16.8781 16.6154 16.9289C16.7373 16.9797 16.868 17.0058 17 17.0058C17.132 17.0058 17.2627 16.9797 17.3846 16.9289C17.5064 16.8781 17.617 16.8037 17.71 16.71L20.71 13.71C20.801 13.6149 20.8724 13.5028 20.92 13.38C21.02 13.1365 21.02 12.8635 20.92 12.62Z" fill="#8B3CF1"/>
+                                    </svg>
+                                    Build Speed Boost
+                                </li>
+                            </ul>
+                            <div class="prices__price">
+                                <p>29€/1999₽</p>
+                                <p>per year</p>
+                            </div>
+                            <button class="prices__btn prices__btn--white try-btn">Buy</button>
+                            </li>
+                    </ul>
+                    <ul class="prices__bottom-list">
+                        <li class="prices__bottom-list-item">
+                            <h5>Server</h5>
+                            <p>Free license forever with maximum (Premium) functionality, no registration/licensing required.</p>
+                        </li>
+                        <li class="prices__bottom-list-item">
+                            <h5>Education  </h5>
+                            <p>Students use the premium version for free while studying. Obtain a teaching license (<span>certificate of registration required</span>).</p>
+                        </li>
+                        <li class="prices__bottom-list-item">
+                            <h5>Team</h5>
+                            <p>Students use the premium version for free while studying. Obtain a teaching license  (<span>certificate of registration required</span>).</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="questions section">
+                <div class="container container--thin">
+                    <h2 class="questions__title">
+                        Frequently Asked <span>Questions</span>
+                    </h2>
+                    <p class="questions__subtitle"> Cannot find answers here? Contact us at our <a href="#">Support</a> </p>
+                    <ul class="questions__accordion">
+                        <li class="questions__accordion-item">
+                            <div class="questions__accordion-title">Can I use PowerTech for free?</div>
+                            <div class="questions__accordion-content">
+                                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vitae purus mi. Aenean nec nunc risus. Nam sit amet ligula ipsum. Suspendisse potenti.</p>
+                            </div>
+                        </li>
+                        <li class="questions__accordion-item">
+                            <div class="questions__accordion-title">What happens when I get over the guest limit for personal account?</div>
+                            <div class="questions__accordion-content">
+                                <p> Upgrade to the Team Plan for unlimited guests. You can also review and remove inactive guests in Settings & Members.</p>
+                            </div>
+                        </li>
+                        <li class="questions__accordion-item">
+                            <div class="questions__accordion-title">Do you offer student discounts?</div>
+                            <div class="questions__accordion-content">
+                                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vitae purus mi. Aenean nec nunc risus. Nam sit amet ligula ipsum. Suspendisse potenti.</p>
+                            </div>
+                        </li>
+                        <li class="questions__accordion-item">
+                            <div class="questions__accordion-title">What happends if my payment fails?</div>
+                            <div class="questions__accordion-content">
+                                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vitae purus mi. Aenean nec nunc risus. Nam sit amet ligula ipsum. Suspendisse potenti.</p>
+                            </div>
+                        </li>
+                        <li class="questions__accordion-item">
+                            <div class="questions__accordion-title">How is my payment processed?</div>
+                            <div class="questions__accordion-content">
+                                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vitae purus mi. Aenean nec nunc risus. Nam sit amet ligula ipsum. Suspendisse potenti..</p>
+                            </div>
+                        </li>
+                        <li class="questions__accordion-item">
+                            <div class="questions__accordion-title">Can I control what other team members can see?</div>
+                            <div class="questions__accordion-content">
+                                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vitae purus mi. Aenean nec nunc risus. Nam sit amet ligula ipsum. Suspendisse potenti.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="teams section">
+                <div class="container">
+                    <h2 class="teams__title">
+                        Used by the world’s most innovative teams
+                    </h2>
+                        <ul class="teams__list">
+                            <li class="teams__list-item">
+                                <img src="./img/teams/img-1.svg" alt="">
+                                <p>
+                                    PowerTech is a workspace that adapts to your needs. It’s as minimal or as powerful as you need it to be.
+                                </p>
+                                <div class="teams__profile">
+                                    <picture>
+                                        <source type="image/webp" srcset="./img/teams/avatar-1.webp">
+                                        <img src="./img/teams/avatar-1.png" alt="">
+                                    </picture>
+
+                                    <div class="teams__profile-info">
+                                        <p>Jacob Jones</p>
+                                        <p>Director of Product</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="teams__list-item">
+                                <img src="./img/teams/img-2.svg" alt="">
+                                <p>
+                                    We have been using PowerTech for 1 years and it’s fantastic! It’s fast, secure and reliable. Happy to recommend it to anyone looking for all-in-one management solutions.
+                                </p>
+                                <div class="teams__profile">
+                                    <picture>
+                                        <source type="image/webp" srcset="./img/teams/avatar-2.webp">
+                                        <img src="./img/teams/avatar-2.png" alt="">
+                                    </picture>
+                                    <div class="teams__profile-info">
+                                        <p>Natasha Grey</p>
+                                        <p>Head of People Ops</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="teams__list-item">
+                                <img src="./img/teams/img-3.svg" alt="">
+                                <p>
+                                    PowerTech continues to be the easiest way to get information centralized somewhere and shout it out to someone else.
+                                </p>
+                                <div class="teams__profile">
+                                    <picture>
+                                        <source type="image/webp" srcset="./img/teams/avatar-3.webp">
+                                        <img src="./img/teams/avatar-3.png" alt="">
+                                    </picture>
+                                    <div class="teams__profile-info">
+                                        <p>Harry Potter</p>
+                                        <p>Co-founder & CEO</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="teams-slide swiper-slide">
+                                    <div class="teams-slide-wrapper">
+                                        <img src="./img/teams/img-1.svg" alt="">
+                                        <p>
+                                            PowerTech is a workspace that adapts to your needs. It’s as minimal or as powerful as you need it to be.
+                                        </p>
+                                        <div class="teams__profile">
+                                            <picture>
+                                                <source type="image/webp" srcset="./img/teams/avatar-1.webp">
+                                                <img src="./img/teams/avatar-1.png" alt="">
+                                            </picture>
+                                            <div class="teams__profile-info">
+                                                <p>Jacob Jones</p>
+                                                <p>Director of Product</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="teams-slide swiper-slide">
+                                    <div class="teams-slide-wrapper">
+                                        <img src="./img/teams/img-2.svg" alt="">
+                                        <p>
+                                            We have been using PowerTech for 1 years and it’s fantastic! It’s fast, secure and reliable. Happy to recommend it to anyone looking for all-in-one management solutions.
+                                        </p>
+                                        <div class="teams__profile">
+                                            <picture>
+                                                <source type="image/webp" srcset="./img/teams/avatar-2.webp">
+                                                <img src="./img/teams/avatar-2.png" alt="">
+                                            </picture>alt="">
+                                            <div class="teams__profile-info">
+                                                <p>Natasha Grey</p>
+                                                <p>Head of People Ops</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="teams-slide swiper-slide">
+                                    <div class="teams-slide-wrapper"><img src="./img/teams/img-3.svg" alt="">
+                                        <p>
+                                            PowerTech continues to be the easiest way to get information centralized somewhere and shout it out to someone else.
+                                        </p>
+                                        <div class="teams__profile">
+                                            <picture>
+                                                <source type="image/webp" srcset="./img/teams/avatar-3.webp">
+                                                <img src="./img/teams/avatar-3.png" alt="">
+                                            </picture>
+                                            <div class="teams__profile-info">
+                                                <p>Harry Potter</p>
+                                                <p>Co-founder & CEO</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            <div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+
+                    </div>
+                    <div class="teams__info">
+                        <a href="#">Try it yourself</a> and <a href="#">tell us</a>  how you found the service useful
+                      </div>
+                    </div>
+            </section>
+            <section class="today section">
+                <div class="container">
+                    <div class="today-inner">
+                        <h2 class="today__title">
+                            Try PowerTech Today
+                        </h2>
+                        <p class="today__subtitle">
+                            Get started for free.<br>Add your whole team as your needs grow
+                        </p>
+                        <div class="today__btns">
+                            <button class="today__btn try-btn">
+                                Buy a license
+                            </button>
+                            <button class="today__btn--blue try-btn popup-test-open">
+                                Try it for FREE 30 days
+                            </button>
+                        </div>
+                        <div class="today__info">
+                            Enterprise? <a class="popup-help-open" href="#">Contact sales</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-inner">
+                    <div class="footer__info">
+                        <a href="#">Cookie Settings</a>
+                        <a href="#">Status</a>
+                    </div>
+                    <div class="footer__copy">
+                        <a href="#">© 2022 PowerTech</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="./swiper/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

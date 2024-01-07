@@ -1,0 +1,23 @@
+.footer{
+    &-inner{
+        border-top: 1px solid #BBBDC1;
+        padding: 20px 0 30px 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__info{
+        color: #F2F2F2;
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 130%;
+    }
+    &__copy{
+        color: #8D9298;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 130%;
+    }
+}
